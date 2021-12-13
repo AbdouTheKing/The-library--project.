@@ -1,0 +1,106 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  body {
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display:flex;
+    justify-content:center;
+    padding-top:30px;
+    
+  }
+  
+  label {
+    line-height:1.2;
+    font-size:22px;
+    color:#cb997e;
+  }
+  .firstinput input {
+  margin-top:15px;
+    width:100%;
+    font-size:18px;
+    background-color:#ffffff75;
+    border:none;
+    border-radius:10px;
+   
+    padding:16px;
+    height:40px;
+  }
+  
+  select {
+    font-size:17px;
+    margin-right:50px;
+    padding:10px;
+    
+  }
+  
+  .buttons {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:23px;
+    
+    
+  }
+  
+  .buttons button {
+    padding:10px 16px;
+    border-radius:12px;
+    border:none;
+    background-color:#6aff00a4;
+    color:#14213d;
+    margin:10px;
+    cursor:pointer;
+    padding: 20px;
+  }
+  
+  
+  body > table{
+      width: 80%;
+  }
+  
+  table{
+      border-collapse: collapse;
+  }
+  table.list{
+      width:100%;
+  }
+  
+  td, th {
+      border: 1px solid #ffffff;
+      text-align: left;
+      padding: 8px;
+  }
+
+  button {
+      font-size: 20px;
+  }
+  form{
+    background-color: #14213d;
+    padding: 20px;
+  }
+  form h1 {
+    text-align: center;
+    color: #cb997e;
+  }
+  #secondinput{
+    margin-left: 50px;
+  }
+  #btnindex1 a {
+    text-decoration: none;
+    text-align: center;
+    
+  }
+  #btnindex1{
+    margin-top: 400px;
+    margin-left: 650px;
+    padding: 10px;
+  }

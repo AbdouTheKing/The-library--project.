@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript Library</title>
+    <link rel="shortcut icon" href="#">
+
+  </head>
+  <body>
+    <main class='container'>
+    <form >
+      <h1>Add your book now</h1>
+        <div class="firstinput">
+        <label id="first">Title
+         <input type='text' name='title' id='title' placeholder='title' required maxlength="30" />
+        </label>
+        <div it='title1'></div>
+        <br><br>
+        <label>Author
+        <input type='text' name='author' id='author' placeholder='author' required maxlength="30"/>
+        </label>
+     <br><br>
+        <label>Price
+      <input type='phone' name='price' id='price' placeholder='price' required />
+        </label>
+        <br><br>
+        <label>date of publication
+         
+      <input type="date" name="date" id='date' required>
+          </div>
+         <br><br>
+          <label>
+            <select name='language' id='language' required> 
+               <option value='English' required id='English'>English</option>
+              <option value='French' required id='French'>French</option>
+              <option value='Arabe' required id='Arabe'>Arabe</option>
+            
+              
+        </label></select>
+           <br/><br>
+            <div id="secondinput">
+              <input type='radio' id='roman' value='Roman'  name='fav'>
+            <label for='roman'>Roman</label>
+            
+            <input type='radio' id='essai' value='Essai'   name='fav'>
+            <label for='essai'>Essai</label>
+            
+            <input type='radio' id='bandle' value='bandle'   name='fav'>
+            <label for='bandle'>Bande-Dessinée</label>
+            </div>
+           
+             
+      
+          
+          <div class="buttons">
+            <button id="submit1">Add</button> 
+          </div>
+    </form>
+          <br><br><br>
+          
+                <table class="table" id="list">
+            <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Price</th>
+                            <th>language</th>
+                            <th>List</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+          </div>
+            <br>
+        <script src="main1.js">
+
+            
+        </script>
+        </body>
+      
+      </html>
+    
